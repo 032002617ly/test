@@ -1,0 +1,3 @@
+<!--pages/welcome/welcome.wxml-->
+<image src="/pictures/kang.png"
+mode="widthFix"></image>

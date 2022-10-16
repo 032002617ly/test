@@ -1,0 +1,4 @@
+/* pages/welcome/welcome.wxss */
+image{
+  height: 568px;
+}

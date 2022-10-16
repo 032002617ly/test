@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/home/home",
+    "pages/wode/wode",
+    "pages/project/project"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#14c145",
+    "navigationBarTitleText": "个人简介",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "基本信息",
+      "iconPath": "/pictures/主页1.png",
+      "selectedIconPath": "/pictures/主页.png"
+    },
+    {
+      "pagePath": "pages/project/project",
+      "text": "专业技能",
+      "iconPath": "/pictures/购物车1.png",
+      "selectedIconPath": "/pictures/购物车.png"
+    },
+    {
+      "pagePath": "pages/wode/wode",
+      "text": "演艺经历",
+      "iconPath": "/pictures/我的1.png",
+      "selectedIconPath": "/pictures/我的.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

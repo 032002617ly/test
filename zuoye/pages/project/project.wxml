@@ -1,0 +1,27 @@
+<!--pages/project/project.wxml-->
+<view class="padding">
+  <view class="padding-sm bg-white flex">
+    <view><image src="/pictures/唱.png" class="cu-avatar xl round"></image></view>
+    <view class="margin-left-sm">
+      <text class="text-bold text-lg text-black">唱</text>
+    </view>
+  </view>
+  <view class="padding-sm bg-white flex margin-top-sm">
+    <view><image src="/pictures/跳.png" class="cu-avatar xl round"></image></view>
+    <view class="margin-left-sm">
+      <text class="text-bold text-lg text-black">跳</text>
+    </view>
+  </view>
+  <view class="padding-sm bg-white flex margin-top-sm">
+    <view><image src="/pictures/rap.png" class="cu-avatar xl round"></image></view>
+    <view class="margin-left-sm">
+      <text class="text-bold text-lg text-black">Rap</text>
+    </view>
+  </view>
+  <view class="padding-sm bg-white flex margin-top-sm">
+    <view><image src="/pictures/篮球.png" class="cu-avatar xl round"></image></view>
+    <view class="margin-left-sm">
+      <text class="text-bold text-lg text-black">篮球</text>
+    </view>
+  </view>
+</view>

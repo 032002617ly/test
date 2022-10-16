@@ -1,0 +1,46 @@
+<!--pages/wode/wode.wxml-->
+<view class="padding">
+  <view class="cu-timeline">
+    <view class="cu-item">
+      <view class="content">
+        <view class="flex justify-between align-center">
+          <text class="cu-tag line-green">2018年</text>
+        </view>
+        <view class="flex margin-top-sm">
+          <text class="flex-sub">2018.1</text>
+          <text class="flex-treble">参加偶像练习生并在4月6号总决赛中获得最高票数。</text>
+        </view>
+        <view class="flex margin-top-sm">
+          <text class="flex-sub">2018.8.23</text>
+          <text class="flex-treble">发行原创单曲《Wait Wait Wait》，并携手格莱美奖最佳MV获奖导演戴夫·迈尔斯打造了歌曲MV。</text>
+        </view>
+      </view>
+      <view class="content">
+        <view class="flex justify-between align-center">
+          <text class="cu-tag line-green">2020年</text>
+        </view>
+        <view class="flex margin-top-sm">
+          <text class="flex-sub">2020.3.12</text>
+          <text class="flex-treble">作为青春制作人代表加盟的青年励志综艺《青春有你第二季》开播。</text>
+        </view>
+        <view class="flex margin-top-sm">
+          <text class="flex-sub">2020.5.24</text>
+          <text class="flex-treble">发布原创单曲《情人》，该曲刷新了15项音乐榜单冠军，抖音相关话题播放量过30亿，QQ音乐单平台收藏量达到1400万。</text>
+        </view>
+      </view>
+      <view class="content">
+        <view class="flex justify-between align-center">
+          <text class="cu-tag line-green">2021年</text>
+        </view>
+        <view class="flex margin-top-sm">
+          <text class="flex-sub">2021.1.23</text>
+          <text class="flex-treble">出席第二届TMEA腾讯音乐娱乐盛典，并获得年度最具影响力唱作歌手和年度最具号召力歌手两个奖项，而单曲《情人》则获得了年度十大金曲奖。</text>
+        </view>
+        <view class="flex margin-top-sm">
+          <text class="flex-sub">2021.4.13</text>
+          <text class="flex-treble">以原创音乐制作人身份发行个人创作专辑《迷》，不仅包揽了专辑全部词曲创作、编曲制作、A&R企划，还担任Intro MV导演，该专辑在上线24小时内连夺TME平台专辑销量五大冠军，并刷新了多项平台纪录。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

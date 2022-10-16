@@ -1,0 +1,61 @@
+<!--pages/home/home.wxml-->
+<view class="padding">
+  <view class="padding-xl radius shadow-warp bg-white margin=top">
+    <view class="flex justify-center">
+      <image src="/pictures/头像.jpg" class="cu-avatar xl round"></image>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text class="text-bold">蔡徐坤</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>期望职位：个人练习生</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>只因</text>
+      <text class="margin-left-sm">18岁</text>
+      <text class="margin-left-sm">练习时长两年半</text>
+    </view>
+    <view class="flex justify-around margin-top-sm">
+      <view bindtap="showModal" data-target="Image">
+        <text class="cuIcon-weixin text-xl text-green"></text>
+        <text>添加微信</text>
+      </view>
+      <view bindtap="call">
+        <text class="cuIcon-phone text-xl text-green"></text>
+        <text>拨打电话</text>
+      </view>
+      <view bindtap="save">
+        <text class="cuIcon-addressbook text-xl text-green"></text>
+        <text>保存通讯录</text>
+      </view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow-warp bg-white margin=top">
+    <view class="cuIcon-medalfill text-xl text-green text-center"></view>
+    <view class="perform margin-top text-center text-bold"></view>
+    <view class="cuIcon-time lg text-black margin-top">
+      <text class="margin-left-sm">2012.4至今</text>
+    </view>
+    <view class="cuIcon-home lg text-black margin-top">
+      <text class="margin-left-sl">《偶像练习生》</text>
+    </view>
+    <view class="cuIcon-attention lg text-black margin-top">
+      <text class="margin-left-sm">练习时长两年半的个人练习生</text>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow-warp bg-white margin=top">
+    <view class="cuIcon-appreciate text-xl text-green text-center"></view>
+    <view class="evaluate margin-top text-center text-bold"></view>
+    <view class="margin-top-sm padding-sm">在这个颜值当道的时代，我菜虚鲲的出现可谓是锦上添花，如同从漫画中走出来的美少年，同时也有着成为世界巨星的潜质，唱跳能力俱佳，斩获《偶像练习生》冠军出道，一首原创单曲“wait wait wait”更是一举夺得华语金曲奖。</view>
+  </view>
+</view>
+
+<view class="cu-modal {{modalName=='Image'?'show':''}}">
+  <view class="cu-dialog">
+    <image src="/pictures/wechat.jpg" class="wechat"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub solid-left" bindtap="hideModal">我知道了
+      </view>
+    </view>
+  </view>
+</view>
